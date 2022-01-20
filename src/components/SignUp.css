@@ -1,0 +1,63 @@
+.signUp{
+    min-height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: linear-gradient(rgba(44, 46, 51, 0.116),rgba(30, 47, 90, 0.466)
+    ),url(https://tanja24.mcdn.ma/static/uploads/2020/01/580-2.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signBox img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.signBox{
+    background: #000;
+    border-radius: 10px;
+    margin: 5%;
+    width: 450px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0px rgba(241, 236, 236, 0.664);
+    transition: 0.5s;
+    text-align: center;
+    align-content: center;
+}
+.signBox div {
+    margin: 5%;
+}
+.input2{
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    border:2px solid rgb(240, 235, 227);
+    background-color: #000;
+    /* box-shadow: 0 0 20px 0px rgba(241, 236, 236, 0.815); */
+}
+.signBox button{
+    height: 40px;
+    width: 130px;
+    border-radius: 10px;
+}
+.signBox button:hover{
+    color: rgb(194, 46, 46);
+    box-shadow: 0 0 10px 0px rgba(185, 173, 173, 0.589);
+}
+.su{
+    color: #fff;
+    text-decoration: none;
+}
+.suu {
+    color: rgb(61, 88, 240);
+    text-decoration: none;
+}
+.suu:hover{
+    color: rgb(230, 24, 24);
+}

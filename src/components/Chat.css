@@ -1,0 +1,117 @@
+.bigMsg{
+    background-color: rgb(250, 246, 246);
+    min-height: 100vh;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    border: 2px solid rgba(252, 252, 253, 0);
+    /* flex-direction: column; */
+
+}
+.bigMsg h1 {
+    margin-top: 5%;
+}
+.bigMsg img {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    position: center;
+}
+
+.masegs{
+    margin: 2% 5%;
+    border: 2px solid rgba(241, 227, 227, 0.993);
+    align-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.top{
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+}
+.top input{
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    margin: 5% 2% 0.5% 0 ;
+    font-size: large;
+    border: 4px solid rgb(133, 101, 101);
+    border-radius: 7px;
+
+}
+
+.medel input {
+    
+    width: 170px;
+    height: 30px;
+    margin: 0 2% 0.5% 0 ;
+    text-align: center;
+    font-size: large;
+    border: 4px solid rgb(133, 101, 101);
+    border-radius: 7px;
+}
+
+.doun input{
+    width: 52%;
+    height: 40vh;
+    margin: 0 0 2% 0;
+    text-align: center;
+    font-size: large;
+    border: 4px solid rgb(133, 101, 101);
+    border-radius: 7px;
+}
+.nn button {
+    width: 10%;
+    height: 30px;
+    margin-bottom: 5%;
+    border-radius: 7px;
+    font-size: large;
+}
+.nn button:hover {
+    color: rgb(194, 46, 46);
+    box-shadow: 0 0 20px 0px rgba(241, 236, 236, 0.815);
+}
+.bidDiv{
+    margin: 50px auto;
+    /* width: 85%; */
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    gap: 10px 50px;
+    justify-content: space-around;
+}
+.msgggBox{
+    /* border: 2px solid rgba(66, 70, 66, 0.712); */
+    width: 320px;
+    height: 260px;
+    padding: 32px 12px;
+   justify-content: space-between;
+   border-radius: 10px; 
+   box-shadow: 5px 5px 5px 5px #6f5679a1;
+   font-size: x-large;
+}
+.pharagraph{
+    /* background-color: cadetblue; */
+    height: 240px;
+    width: 300px;
+    padding: 2%;
+}
+.delbtn{
+    /* background-color: cornflowerblue; */
+    margin: 10px;
+    color: red;
+    font-size: large;
+}
+.delbtn:hover{
+    font-size: x-large;
+    color: royalblue;
+
+}
+/* .msgggBox p {
+   background-color: blueviolet;
+    margin: 2%;
+    font-size: large;
+} */
